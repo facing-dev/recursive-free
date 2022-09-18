@@ -1,6 +1,6 @@
 {
   "name": "recursive-free",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursive without stack overflow",
   "main": "dist/index.js",
   "scripts": {
