@@ -3,7 +3,7 @@ export default function recursiveFree<TParam, TReturn>(rec: (params: TParam) => 
         let stack = new Map<number, Generator<TParam, TReturn, TReturn>>
         stack.set(0, rec(param))
         let env = stack.get(0)
-        let prevReturn: TReturn | null = null
+        let prevReturn: TReturn = null as any
         do {
             let ite = env!.next(prevReturn!)
             if (ite.done) {
