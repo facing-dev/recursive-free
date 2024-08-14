@@ -1,8 +1,10 @@
 {
   "name": "recursive-free",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Recursive without stack overflow",
+  "type": "module",
   "module": "dist/index.mjs",
+  "typings": "dist/index.d.mts",
   "scripts": {
     "build": "./node_modules/.bin/tsc"
   },
