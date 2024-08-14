@@ -3,9 +3,9 @@
         "outDir": "./dist",
         "baseUrl": ".",
         "rootDir": "./src",
-        "moduleResolution": "node",
-        "module": "CommonJS",
-        "target": "ES6",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "target": "ES2016",
         "strict": true,
         "sourceMap": true,
         "lib": [
@@ -23,7 +23,5 @@
         "declarationMap": true,
         "noUnusedLocals": false
     },
-    "include": [
-        "./src/**/*.ts",
-    ],
+    "files": ["./src/index.mts"]
 }
